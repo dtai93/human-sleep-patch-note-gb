@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const entry = "Fixed sleep's 3 a.m. replay of a 2009 conversation; the other person forgot years ago.";
+const entry = "Fixed sleep's 3 a.m. replay of a 2009 conversation; the other person forgot it years ago.";
 const length = [...entry].length;
 
 if (length < 1 || length > 160 || !entry.trim()) {
